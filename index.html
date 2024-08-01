@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Actividades</title>
+</head>
+<body>
+    <form action="https://script.google.com/macros/s/AKfycbyjszwAlZpJutdKF2DpZSGcRI4YBQYM3Jkdqsc-42vAl2w9ecBkE2mg8nsC4LFi340s/exec" method="POST">
+        <div>
+            <label for="Fecha">Fecha:</label>
+            <input type="date" id="Fecha" name="Fecha" required>
+        </div>
+        <div>
+            <label for="Actividad_Principal">Actividad Principal:</label>
+            <input type="text" id="Actividad_Principal" name="Actividad_Principal" required>
+        </div>
+        <div>
+            <label for="Supervisiones">Supervisiones:</label>
+            <input type="text" id="Supervisiones" name="Supervisiones" required>
+        </div>
+        <div>
+            <label for="Detalle">Detalle:</label>
+            <textarea id="Detalle" name="Detalle" rows="4" cols="50" required></textarea>
+        </div>
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" required>
+        </div>
+        <div>
+            <label for="CIP">CIP:</label>
+            <input type="text" id="CIP" name="CIP" required>
+        </div>
+        <div>
+            <label for="Hora_inicio">Hora de Inicio:</label>
+            <input type="time" id="Hora_inicio" name="Hora_inicio" required>
+        </div>
+        <div>
+            <label for="Hora_Fin">Hora de Fin:</label>
+            <input type="time" id="Hora_Fin" name="Hora_Fin" required>
+        </div>
+        <div>
+            <label for="quiebre">¿Hubo quiebre que impidió culminar la actividad? SI/NO:</label>
+            <select id="quiebre" name="quiebre" required>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+        </div>
+        <div>
+            <label for="Motivo">Motivo:</label>
+            <textarea id="Motivo" name="Motivo" rows="4" cols="50" required></textarea>
+        </div>
+        <div>
+            <label for="Horas">Horas:</label>
+            <input type="number" id="Horas" name="Horas" required>
+        </div>
+        <div>
+            <label for="Ponderación">Ponderación:</label>
+            <input type="number" id="Ponderación" name="Ponderación" required>
+        </div>
+        <div>
+            <label for="Cant_actividades">Cantidad de Actividades:</label>
+            <input type="number" id="Cant_actividades" name="Cant_actividades" required>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
